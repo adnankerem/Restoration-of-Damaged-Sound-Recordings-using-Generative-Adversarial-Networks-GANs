@@ -115,3 +115,11 @@ This project was completed as part of the Master's thesis at the **University of
 
 Special thanks to the university's ICT department for providing computational resources and guidance throughout the development of this project.
 
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Contact
+
+For questions or collaboration, please get in touch with aksoy.adnankerem@gmail.com
+
