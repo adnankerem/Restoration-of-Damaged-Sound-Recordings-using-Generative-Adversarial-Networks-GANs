@@ -51,7 +51,7 @@ The thesis further elaborates on the challenges of audio restoration, the design
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YourGitHubUsername/AudioRestoration-GAN.git
+   git clone https://github.com/adnankerem/Restoration-of-Damaged-Sound-Recordings-using-Generative-Adversarial-Networks-GANs.git
    cd AudioRestoration-GAN
    ```
 
