@@ -24,7 +24,7 @@ The thesis further elaborates on the challenges of audio restoration, the design
 .
 ├── README.md             # Project documentation (this file)
 ├── requirements.txt      # Python dependencies
-├── Thesis_Github         # Main code directory
+├── scripts               # Main code directory
 │   ├── Training_DCGAN.py           # Training script for GANs
 │   ├── Preprocess_Afterprocess_GAN_Combined.py  # Pre- and post-processing code
 │   ├── Dataloader_Prepare_And_Save.py           # Script to prepare and save data
@@ -33,19 +33,17 @@ The thesis further elaborates on the challenges of audio restoration, the design
 │   ├── Spectrogram_Plot.py                      # Utility to plot spectrograms
 │   ├── all_comparisons.py                       # Computes evaluation metrics
 ├── data/                # Directory for datasets (to be populated)
-│   ├── raw              # Original audio files
-│   │   ├── clean        # Clean audio samples
-│   │   ├── noisy        # Noisy audio samples
-│   ├── processed        # Preprocessed spectrograms/MFCCs
-│       ├── mfcc         # MFCC-based data
-│       ├── stft         # STFT-based data
-├── outputs/             # Directory for generated outputs
-│   ├── audio            # Reconstructed audio files
-│   ├── spectrograms     # Spectrogram visualizations
-│   ├── comparisons      # Metric evaluation outputs
-├── examples/            # Examples of input/output files
-│   ├── inputs
-│   ├── outputs
+│   ├── Raw_Sound_Files              # Original audio files
+│   ├── PreProcessed_Datasets        # Preprocessed spectrograms/MFCCs
+├── results/             # Directory for generated outputs
+│   ├── Loss_Datas_To_Plot            # Reconstructed audio files
+├── models/            # Examples of input/output files
+│   ├── backups
+│   │   ├── generators
+│   │   ├── discriminators
+│   ├── generators
+│   ├── discriminators
+├── compares/            # Examples of input/output files
 └── Thesis.pdf           # Full thesis document
 ```
 
