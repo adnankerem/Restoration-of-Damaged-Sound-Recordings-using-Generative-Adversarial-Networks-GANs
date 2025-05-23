@@ -25,7 +25,10 @@ import pickle
 #     "Deneme_mfcclog"
 # )
 
-dataloader = torch.load("Deneme_stftlog")
+### Dataloader path, Edit the string below to the path of your dataset. 
+### If you do not have a ready dataset yet, you can use the "Dataloader_Prepare_And_Save.py" file to create one
+Ready_Dataset_Path = "Ready Dataset Path"  
+dataloader = torch.load(Ready_Dataset_Path)  
 
 # Get the frame rate from the dataloader
 data_batch, _ = next(iter(dataloader))  # Get one batch
